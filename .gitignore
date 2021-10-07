@@ -1,18 +1,32 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# CAP CPAppDevelopment-app
+_out
+*.db
+connection.properties
+default-*.json
+gen/
+node_modules/
+target/
 
-# Other files and folders
-.settings/
+# Web IDE, App Studio
+.che/
+.gen/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Other
+.DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
+
+# IDEs
+# .vscode
+# .idea
+# Do not lock packages in the tutorial
+
+package-lock.json
